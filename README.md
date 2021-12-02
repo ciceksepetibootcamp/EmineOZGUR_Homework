@@ -58,3 +58,7 @@ CSCSY1 -> Çiçeksepeti'nde Satış Yapma Sayfası - "Sıkça Sorulan Sorular" s
 >- "Sıkça Sorulan Sorular" butonuna basılır.
 - Status: PASSED
 - Beklenen Sonuç: *"Sıkça Sorulan Sorular" sayfasına yönlendirildiğinin görülmesi
+
+## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta2_Ödev1
+
+Google PageSpeed ile ilgili bilgi verdiğim Medium yazım ->  https://medium.com/@ozguremine01/google-pagespeed-insights-ile-websitelerinin-kalite-kontrol%C3%BC-4f5b8ac40224
