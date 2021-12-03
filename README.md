@@ -65,4 +65,4 @@ Google PageSpeed ile ilgili bilgi verdiğim Medium yazım ->  https://medium.com
 
 ## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta2_Ödev2
 
-15 tane request işlemi yapıldı.
+https://www.bkmkitap.com/'ye 15 request atıldı.
