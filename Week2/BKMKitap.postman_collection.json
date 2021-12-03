@@ -1,0 +1,418 @@
+{
+	"info": {
+		"_postman_id": "baf359b0-50e8-4eee-8e3e-25d35bfa9a01",
+		"name": "BKMKitap",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Login-Fail-Password-Error",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "password=dfsfdfds&vendor=0&security="
+				},
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/customer/signin/email/deneme@deneme.com",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"customer",
+						"signin",
+						"email",
+						"deneme@deneme.com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://bkm.wawlabs.com/avx_wse?cm=conv&f=True&d=True&q=kitap",
+					"protocol": "https",
+					"host": [
+						"bkm",
+						"wawlabs",
+						"com"
+					],
+					"path": [
+						"avx_wse"
+					],
+					"query": [
+						{
+							"key": "cm",
+							"value": "conv"
+						},
+						{
+							"key": "f",
+							"value": "True"
+						},
+						{
+							"key": "d",
+							"value": "True"
+						},
+						{
+							"key": "q",
+							"value": "kitap"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "productId=616121&variantId=0&quantity=1&relatedProductId=&orderNotes=&subscribe=0&subscribeFrequency=&csrfToken=0ad86e1a72145ab68681ab92b1214d2d0c19567c38a9a21eef04727d8673ed19"
+				},
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/cart/load",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"cart",
+						"load"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Forgot-password",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "text"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/customer/forgot-password/deneme1@deneme.com/",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"customer",
+						"forgot-password",
+						"deneme1@deneme.com",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sign-In-Save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/customer/save",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"customer",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Homepage-Interactive-Rows",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/showcase/interactive",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"showcase",
+						"interactive"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Product Detail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/product-showcase/get/548420",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"product-showcase",
+						"get",
+						"548420"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Enter Basket",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/cart/load?link=sepet",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"cart",
+						"load"
+					],
+					"query": [
+						{
+							"key": "link",
+							"value": "sepet"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Empty Basket",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/cart/delete/0",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"cart",
+						"delete",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4 Product Add",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/cart/load-win/22102?link=taksiii",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"cart",
+						"load-win",
+						"22102"
+					],
+					"query": [
+						{
+							"key": "link",
+							"value": "taksiii"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "A Product Delete",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/cart/delete/0",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"cart",
+						"delete",
+						"0"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Activate the Campaign",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/campaign-v2/campaign/select-campaign/1/551",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"campaign-v2",
+						"campaign",
+						"select-campaign",
+						"1",
+						"551"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Campaign Canceled",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/campaign-v2/campaign/deselect-campaign/551",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"campaign-v2",
+						"campaign",
+						"deselect-campaign",
+						"551"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Giris Yapmadan Ödeme Sayfasına Gitme",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/region/get-countries/1",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"region",
+						"get-countries",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Order Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://www.bkmkitap.com/srv/service/customer/order-login",
+					"protocol": "https",
+					"host": [
+						"www",
+						"bkmkitap",
+						"com"
+					],
+					"path": [
+						"srv",
+						"service",
+						"customer",
+						"order-login"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
