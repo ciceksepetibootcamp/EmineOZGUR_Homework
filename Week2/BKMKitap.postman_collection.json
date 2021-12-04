@@ -265,7 +265,7 @@
 			"response": []
 		},
 		{
-			"name": "4 Product Add",
+			"name": "Add 4 Product",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -295,7 +295,7 @@
 			"response": []
 		},
 		{
-			"name": "A Product Delete",
+			"name": "Delete A Product",
 			"request": {
 				"method": "GET",
 				"header": [],
