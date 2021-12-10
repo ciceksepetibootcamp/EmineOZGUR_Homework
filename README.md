@@ -69,5 +69,5 @@ https://www.bkmkitap.com/'ye 15 request atıldı.
 
 ## Çiçeksepeti_Test_Otomayon_Bootcamp_Hafta3_Ödev1
 
-Trivago web sitesi için cucumber ve selenium kullanarak 5 tane otomasyon test senaryosu yazdım.
+Trivago web sitesi için cucumber ve selenium kullanarak 5 tane test otomasyon senaryosu yazdım.
 -> https://github.com/ciceksepetibootcamp/EmineOZGUR_Homework/tree/main/Week3/BDD_Testing/CicekSepeti_Cucumber_Testing_Homework
