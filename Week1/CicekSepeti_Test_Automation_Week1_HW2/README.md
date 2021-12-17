@@ -2,11 +2,11 @@
 
 ## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta1_Ödev1
 
-https://www.ciceksepeti.com/ için yazdığım test senaryolarının bulunduğu e-tablonun linki -> https://docs.google.com/spreadsheets/d/1--F6OhDgr6vDXKPVJyf1q_lN8IQvFLUmYNhzBSoKjV8/edit?usp=sharing
+:closed_lock_with_key: https://www.ciceksepeti.com/ için yazdığım test senaryolarının bulunduğu e-tablonun linki -> https://docs.google.com/spreadsheets/d/1--F6OhDgr6vDXKPVJyf1q_lN8IQvFLUmYNhzBSoKjV8/edit?usp=sharing
 
 ## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta1_Ödev2
 
-Bu ödevde 2 class ve her class içerisinde ikişer senaryo bulunmaktadır.
+:key:  Bu ödevde 2 class ve her class içerisinde ikişer senaryo bulunmaktadır.
 
 Kodlanan Test Senaryolarının Noları: CSCSY1, CSCSY3, CSC1 ve CSC2
 
