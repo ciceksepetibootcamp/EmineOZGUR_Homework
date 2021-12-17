@@ -75,3 +75,10 @@ Trivago web sitesi için cucumber ve selenium kullanarak 5 tane test otomasyon s
 ## Çiçeksepeti_Test_Otomayon_Bootcamp_Hafta3_Ödev2
 
 https://swagger.io/tools/swagger-ui/'den yararlanarak Rest Assured API testi ödevini yaptım.
+
+## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta4_Ödev1
+Python dilinde https://www.boyner.com.tr/ için otomasyon testleri yazdım.
+
+## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta4_Ödev2
+C# dilinde https://tr.aliexpress.com/ için otomasyon testleri yazdım.
+
