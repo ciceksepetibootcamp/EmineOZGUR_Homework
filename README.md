@@ -22,8 +22,8 @@
 
 
 * ## Hafta4
-  * :loop: Python dili kullanılara otomasyon testlerinin yazımı :white_check_mark:
+  * :loop: Python dili kullanarak otomasyon testlerinin yazımı :white_check_mark:
   
-  * :watch: C# dili kullanılarak otomasyon testlerinin yazımı :white_check_mark:
+  * :watch: C# dili kullanarak otomasyon testlerinin yazımı :white_check_mark:
 
 
