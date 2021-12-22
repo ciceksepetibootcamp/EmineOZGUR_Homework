@@ -1,84 +1,29 @@
-# EmineOZGUR_Homework
+# EmineOZGUR_ÇiçekSepeti_QA_Bootcamp_Homework
 
-## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta1_Ödev1
+* ## Hafta 1
 
-https://www.ciceksepeti.com/ için yazdığım test senaryolarının bulunduğu e-tablonun linki -> https://docs.google.com/spreadsheets/d/1--F6OhDgr6vDXKPVJyf1q_lN8IQvFLUmYNhzBSoKjV8/edit?usp=sharing
-
-## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta1_Ödev2
-
-Bu ödevde 2 class ve her class içerisinde ikişer senaryo bulunmaktadır.
-
-Kodlanan Test Senaryolarının Noları: CSCSY1, CSCSY3, CSC1 ve CSC2
-
-Ödev1 kapsamında teslim ettiğim e-tabloda senarolara ulaşabilirsiniz!!!
-
-IDE olarak Eclipse'i kullandım.
-https://www.selenium.dev/downloads/ sayfasında Selenium Server (Grid), Selenium Clients and WebDriver(Java) ve Chromedriver'ı indirdim. İndirdiğim .jar dosyalarını Java projeme dahil ettim.
-
-CSC1 -> Çiçek Kategorisi - Sipariş Saati Seçme :
-
->- https://www.ciceksepeti.com/'a girilir.
->- "Çiçek" kategorisine tıklanır.
->- Gelen ürünlerden herhangi birine tıklanır.
->- Teslimat tarihi seçilir.
->- Teslimat saati seçilir.
->- "Sipariş Ver"'e basılır.
-- Status: PASSED
-- Beklenen Durum: *Seçilen teslimat tarihi ve saatinin sepette doğru görülmesi
+  * :memo: ÇiçekSepeti(Web) için 28 senaryo yazdım. :white_check_mark:
+  
+  * :open_file_folder: 2 class x 2 test olacak şekilde Selenium kullanarak Java'da otomasyon testlerini yazdım. :white_check_mark:
 
 
-CSC2 -> Çiçek Kategorisi - Ürün Ekleme :
+* ## Hafta2
 
->- https://www.ciceksepeti.com/'a girilir.
->- "Çiçek" kategorisine tıklanır.
->- Gelen ürünlerden herhangi birine tıklanır.
->- "Sipariş Ver"'e tıklanır.
-- Status: FAILED
-- Beklenen Durum: *Sepetime yönlendirilmeli
-- Gerçekleşen Durum: "Kullanıcı Girişi" sayfasına yönlendirildiği gözlemlenir.
+  * :black_nib: Google PageSpeed ile ilgili bilgi veren bir Medium yazısı yazdım. :white_check_mark:
+  
+  * :dart: POSTMAN kullanarak API testi :white_check_mark:
 
-CSCSY1 -> Çiçeksepeti'nde Satış Yapma Sayfası - Hemen Başvuru Yapma :
 
->- https://www.ciceksepeti.com/'a girilir.
->- Anasayfada sağ üstte bulunan "Çiçeksepeti'nde Satış Yap"'a basılır.
->- Çıkan popup kapatılır.
->- "Hemen Başvur"'a tıklanır. 
->- Çıkan popup kapatılır.
-- Status: PASSED
-- Beklenen Sonuç: *Firma başvuru sayfasına yönlendirildiğinin görülmesi  *"Devam Et" butonun görülmesi gerekir.
-                
-              
-CSCSY1 -> Çiçeksepeti'nde Satış Yapma Sayfası - "Sıkça Sorulan Sorular" sayfasına yönlendirme :
+* ## Hafta3
 
->- https://www.ciceksepeti.com/'a girilir.
->- Anasayfada sağ üstte bulunan "Çiçeksepeti'nde Satış Yap"'a basılır.
->- Çıkan popup kapatılır.
->- "Hemen Başvur"'a tıklanır. 
->- Çıkan popup kapatılır.
->- "Sıkça Sorulan Sorular" butonuna basılır.
-- Status: PASSED
-- Beklenen Sonuç: *"Sıkça Sorulan Sorular" sayfasına yönlendirildiğinin görülmesi
+  * :books: Cucumber ve Selenium kullanarak 5 tane otomasyon testinin yazımı :white_check_mark:
+  
+  * :pushpin: Rest Assured API testi ödevi :white_check_mark:
 
-## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta2_Ödev1
 
-Google PageSpeed ile ilgili bilgi verdiğim Medium yazım ->  https://medium.com/@ozguremine01/google-pagespeed-insights-ile-websitelerinin-kalite-kontrol%C3%BC-4f5b8ac40224
+* ## Hafta4
+  * :loop: Python dili kullanılara otomasyon testlerinin yazımı :white_check_mark:
+  
+  * :watch: C# dili kullanılarak otomasyon testlerinin yazımı :white_check_mark:
 
-## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta2_Ödev2
-
-https://www.bkmkitap.com/'ye 15 request atıldı.
-
-## Çiçeksepeti_Test_Otomayon_Bootcamp_Hafta3_Ödev1
-
-Trivago web sitesi için cucumber ve selenium kullanarak 5 tane test otomasyon senaryosu yazdım.
--> https://github.com/ciceksepetibootcamp/EmineOZGUR_Homework/tree/main/Week3/BDD_Testing/CicekSepeti_Cucumber_Testing_Homework
-
-## Çiçeksepeti_Test_Otomayon_Bootcamp_Hafta3_Ödev2
-
-https://swagger.io/tools/swagger-ui/'den yararlanarak Rest Assured API testi ödevini yaptım.
-
-## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta4_Ödev1
-Python dilinde https://www.boyner.com.tr/ için otomasyon testleri yazdım.
-
-## Çiçeksepeti_Test_Otomasyon_Bootcamp_Hafta4_Ödev2
-C# dilinde https://tr.aliexpress.com/ için otomasyon testleri yazdım.
 
