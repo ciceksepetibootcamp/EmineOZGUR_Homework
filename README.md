@@ -2,9 +2,9 @@
 
 * ## Hafta 1
 
-  * :memo: ÇiçekSepeti(Web) için 28 senaryo yazdım. :white_check_mark:
-  
-  * :open_file_folder: 2 class x 2 test olacak şekilde Selenium kullanarak Java'da otomasyon testlerini yazdım. :white_check_mark:
+   * :memo: ÇiçekSepeti(Web) için 28 senaryo yazdım. :white_check_mark:
+
+   * :open_file_folder: 2 class x 2 test olacak şekilde Selenium kullanarak Java'da otomasyon testlerini yazdım. :white_check_mark:
 
 
 * ## Hafta2
