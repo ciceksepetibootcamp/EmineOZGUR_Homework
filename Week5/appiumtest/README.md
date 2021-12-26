@@ -12,6 +12,7 @@ Otomasyon Testlerini Yazdığım Mobil Uygulama: Migros Sanal Market
   >- Searchbara tıklanır.
   >- Herhangi bir ürün adı yazılır.
   >- Search ikonuna tıklanır.
+  >- Aratılan kelimeyle ilgili ürünlerin geldiği görülür.
   
 ## Teslimat Bölgesi Seçme	:bell: :calendar:
   >- Teslimat Bölgesi Seçine tıklanır.
