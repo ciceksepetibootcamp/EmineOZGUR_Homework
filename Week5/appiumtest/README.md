@@ -14,7 +14,7 @@ Otomasyon Testlerini Yazdığım Mobil Uygulama: Migros Sanal Market
   >- Search ikonuna tıklanır.
   >- Aratılan kelimeyle ilgili ürünlerin geldiği görülür.
   
-## Teslimat Bölgesi Seçme	:bell: :calendar:
+## Teslimat Bölgesi Seçme	:bell: :minibus:
   >- Teslimat Bölgesi Seçine tıklanır.
   >- Adresime Gelsine basılır.
   >- İstanbul görülünceye kadar swipe up edilir.
