@@ -28,4 +28,5 @@
 
 * ## Hafta5
   *  :evergreen_tree: Appium Mobil Test Otomasyon Ödevi(POM) -> Migros Sanal Market :white_check_mark:
+  
   *  :globe_with_meridians: Appium Mobil Test Otomasyon Ödevi(POM + Cucumber) -> Migros Sanal Market
