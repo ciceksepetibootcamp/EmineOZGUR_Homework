@@ -46,3 +46,26 @@ Otomasyon Testlerini Yazdığım Mobil Uygulama: Migros Sanal Market
   >- Kalp ikonuna basılır.
   >- "Üye Ol" ve "Giriş Yap" butonları görülür. 
 
+## Arama Sonuçlarını Filtreleme (Kategoriye göre) :ear_of_rice:
+
+  >- Uygulama açılır.
+  >- Kategorilere tıklanır.
+  >- Atıştırmalık kategorisine tıklanır.
+  >- Filtreleye basılır.
+  >- Kategorilere tıklanır.
+  >- Çikolataya tıklanır.
+  >- Uygulaya basılır.
+  >- "Ürünleri Görüntüle"'ye basılır.
+
+## Sepetten Ürün Çıkartma :triangular_flag_on_post:
+
+  >- Uygulama açılır.
+  >- Kategorilere tıklanır.
+  >- Atıştırmalık kategorisine tıklanır.
+  >- Gelen sonuçlardan ilk ürüne tıklanır.
+  >- "Sepete Ekle"'ye basılır.
+  >- "+" ikonuna basılır.
+  >- Geri gidilir.
+  >- Sepete gidilir.
+  >- Ürün azaltma ikonuna basılır.
+  >- Sile basılır.
