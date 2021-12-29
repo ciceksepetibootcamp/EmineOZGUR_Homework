@@ -1,5 +1,9 @@
 # EmineOZGUR_ÇiçekSepeti_QA_Bootcamp_Homework
 
+* ## ÇiçekSepeti Ekibi -> POSTMAN ödevi
+  *  :star: [ÇiçekSepeti Ekibi tarafından verilen Postman ödevi](https://github.com/ozguremine01/CicekSepeti-Postman-Odevi) :white_check_mark:
+  
+
 * ## Hafta 1
 
    * :memo: ÇiçekSepeti(Web) için 28 senaryo yazdım. :white_check_mark:
@@ -31,5 +35,4 @@
   
   *  :globe_with_meridians: Appium Mobil Test Otomasyon Ödevi(POM + Cucumber) BDD -> Migros Sanal Market :white_check_mark:
 
-* ## ÇiçekSepeti Ekibi -> POSTMAN ödevi
-  *  :star: [ÇiçekSepeti Ekibi tarafından verilen Postman ödevi](https://github.com/ozguremine01/CicekSepeti-Postman-Odevi) :white_check_mark:
+
