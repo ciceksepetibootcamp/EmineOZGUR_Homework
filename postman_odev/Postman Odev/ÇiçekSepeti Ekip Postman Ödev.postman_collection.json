@@ -1,0 +1,262 @@
+{
+	"info": {
+		"_postman_id": "e51721c9-9a3d-4feb-85df-c3907f6e092a",
+		"name": "ÇiçekSepeti Ekip Postman Ödev",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "cityName Request",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"\r",
+							"pm.test(\"cityName_ankara comment\", function () {\r",
+							"        const responseJson = pm.response.json();\r",
+							"        const get_city = responseJson.item.find(m => m.name === \"cityName_ankara\");\r",
+							"\r",
+							"        //console.log(notificationSettings.response[0].body);\r",
+							"    var comment = JSON.parse(get_city.response[0].body);\r",
+							"    console.log(\"Ankara ili için yapılan yorumlar\");\r",
+							"    console.log(comment.reviewDtos);\r",
+							"    \r",
+							"});\r",
+							"\r",
+							"\r",
+							"\r",
+							"    pm.test(\"cityName_istanbul comment\", function () {\r",
+							"        const responseJson = pm.response.json();\r",
+							"        const get_city = responseJson.item.find(m => m.name === \"cityName_istanbul\");\r",
+							"\r",
+							"        //console.log(notificationSettings.response[0].body);\r",
+							"    var comment = JSON.parse(get_city.response[0].body);\r",
+							"    console.log(\"İstanbul ili için yapılan yorumlar\");\r",
+							"    console.log(comment.reviewDtos);\r",
+							"\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"cityName_van status\", function () {\r",
+							"        const responseJson = pm.response.json();\r",
+							"        const get_city = responseJson.item.find(m => m.name === \"cityName_van\");\r",
+							"        console.log(\"cityName_van status code\");\r",
+							"        console.log(get_city.response[0].code);\r",
+							"        pm.expect(get_city.response[0].code==\"404\").to.be.true;\r",
+							"\r",
+							"    });\r",
+							"\r",
+							"    pm.test(\"cityName_null status\", function () {\r",
+							"        const responseJson = pm.response.json();\r",
+							"        const get_city = responseJson.item.find(m => m.name === \"cityName is null\");\r",
+							"        console.log(\"cityName_null status ve status code\");\r",
+							"        console.log(get_city.response[0].status);\r",
+							"        console.log(get_city.response[0].code);\r",
+							"        pm.expect(get_city.response[0].code==\"400\").to.be.true;\r",
+							"\r",
+							"\r",
+							"    });\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://www.getpostman.com/collections/b668e69a73698144c1ca",
+					"protocol": "https",
+					"host": [
+						"www",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"b668e69a73698144c1ca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cityName_Ankara",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"cityName_ankara comment\", function () {\r",
+							"        const responseJson = pm.response.json();\r",
+							"        const get_city = responseJson.item.find(m => m.name === \"cityName_ankara\");\r",
+							"\r",
+							"        //console.log(notificationSettings.response[0].body);\r",
+							"    var comment = JSON.parse(get_city.response[0].body);\r",
+							"    console.log(comment.reviewDtos);\r",
+							"    \r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.getpostman.com/collections/b668e69a73698144c1ca",
+					"protocol": "https",
+					"host": [
+						"www",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"b668e69a73698144c1ca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cityName_İstanbul",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							" pm.test(\"cityName_istanbul comment\", function () {\r",
+							"        const responseJson = pm.response.json();\r",
+							"        const get_city = responseJson.item.find(m => m.name === \"cityName_istanbul\");\r",
+							"\r",
+							"        //console.log(notificationSettings.response[0].body);\r",
+							"    var comment = JSON.parse(get_city.response[0].body);\r",
+							"    console.log(comment.reviewDtos);\r",
+							"\r",
+							"    });"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.getpostman.com/collections/b668e69a73698144c1ca",
+					"protocol": "https",
+					"host": [
+						"www",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"b668e69a73698144c1ca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cityName_Van",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							" pm.test(\"cityName_van status\", function () {\r",
+							"        const responseJson = pm.response.json();\r",
+							"        const get_city = responseJson.item.find(m => m.name === \"cityName_van\");\r",
+							"        \r",
+							"        console.log(get_city.response[0].code);\r",
+							"        pm.expect(get_city.response[0].code==\"404\").to.be.true;\r",
+							"\r",
+							"    });\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.getpostman.com/collections/b668e69a73698144c1ca",
+					"protocol": "https",
+					"host": [
+						"www",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"b668e69a73698144c1ca"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cityName_null",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							" pm.test(\"cityName_null comment\", function () {\r",
+							"        const responseJson = pm.response.json();\r",
+							"        const get_city = responseJson.item.find(m => m.name === \"cityName is null\");\r",
+							"        console.log(get_city.response[0].status);\r",
+							"        console.log(get_city.response[0].code);\r",
+							"        pm.expect(get_city.response[0].code==\"400\").to.be.true;\r",
+							"\r",
+							"    });\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.getpostman.com/collections/b668e69a73698144c1ca",
+					"protocol": "https",
+					"host": [
+						"www",
+						"getpostman",
+						"com"
+					],
+					"path": [
+						"collections",
+						"b668e69a73698144c1ca"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

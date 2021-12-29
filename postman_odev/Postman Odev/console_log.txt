@@ -1,0 +1,195 @@
+GET https://www.getpostman.com/collections/b668e69a73698144c1ca: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "192.168.1.102",
+        "family": "IPv4",
+        "port": 64693
+      },
+      "remote": {
+        "address": "34.198.207.251",
+        "family": "IPv4",
+        "port": 443
+      }
+    },
+    "tls": {
+      "reused": false,
+      "authorized": true,
+      "authorizationError": null,
+      "cipher": {
+        "name": "ECDHE-RSA-AES128-GCM-SHA256",
+        "standardName": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "version": "TLSv1/SSLv3"
+      },
+      "protocol": "TLSv1.2",
+      "ephemeralKeyInfo": {},
+      "peerCertificate": {
+        "subject": {
+          "commonName": "postman.com",
+          "alternativeNames": "DNS:postman.com, DNS:*.postman.com, DNS:*.api.getpostman.com, DNS:stateoftheapi.com, DNS:*.www.getpostman.com, DNS:*.betterpractices.dev, DNS:postman-echo.com, DNS:*.pstmn.io, DNS:stateofapi.com, DNS:apifirstcompany.com, DNS:api-firstcompany.com, DNS:betterpractices.dev, DNS:*.gw.postman.com, DNS:api-first-company.com, DNS:*.getpostman.com, DNS:what-is-api-first.com, DNS:whatisapifirst.com, DNS:*.stateofapi.com, DNS:*.postman.co, DNS:*.stateoftheapi.com, DNS:postman.co, DNS:pstmn.io, DNS:*.go.postman.com, DNS:*.postman-echo.com, DNS:postmancollections.com, DNS:getpostman.com"
+        },
+        "issuer": {
+          "country": "US",
+          "organization": "Amazon",
+          "organizationalUnit": "Server CA 1B",
+          "commonName": "Amazon"
+        },
+        "validFrom": "Dec 16 00:00:00 2021 GMT",
+        "validTo": "Jan 14 23:59:59 2023 GMT",
+        "fingerprint": "3B:6C:AF:A1:71:D2:83:CA:4A:DF:5F:D5:B6:40:38:36:C1:AD:A7:5C",
+        "serialNumber": "097ef7c0467f6e7226ad7e5e7ce98cd2"
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.28.4",
+    "accept": "*/*",
+    "postman-token": "b2b6d7f8-ea8e-49df-a32b-0f7f76afd4c3",
+    "host": "www.getpostman.com",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive"
+  },
+  "Response Headers": {
+    "date": "Wed, 29 Dec 2021 15:30:55 GMT",
+    "content-type": "text/html",
+    "content-length": "162",
+    "connection": "keep-alive",
+    "server": "nginx",
+    "location": "https://www.postman.com/collections/b668e69a73698144c1ca",
+    "access-control-allow-origin": "*"
+  }
+}
+GET https://www.postman.com/collections/b668e69a73698144c1ca: {
+  "Network": {
+    "addresses": {
+      "local": {
+        "address": "192.168.1.102",
+        "family": "IPv4",
+        "port": 64664
+      },
+      "remote": {
+        "address": "52.85.7.75",
+        "family": "IPv4",
+        "port": 443
+      }
+    },
+    "tls": {
+      "reused": false,
+      "authorized": true,
+      "authorizationError": null,
+      "cipher": {
+        "name": "TLS_AES_128_GCM_SHA256",
+        "standardName": "TLS_AES_128_GCM_SHA256",
+        "version": "TLSv1/SSLv3"
+      },
+      "protocol": "TLSv1.3",
+      "ephemeralKeyInfo": {},
+      "peerCertificate": {
+        "subject": {
+          "commonName": "postman.com",
+          "alternativeNames": "DNS:postman.com, DNS:*.postman.com, DNS:*.srv.postman.com, DNS:*.explore.postman.com, DNS:*.postman.co, DNS:*.cdn.postman.com, DNS:postman.co, DNS:*.mac.postman.com, DNS:*.id.postman.com, DNS:*.gw.postman.com, DNS:*.go.postman.com, DNS:*.getpostman.com, DNS:getpostman.com"
+        },
+        "issuer": {
+          "country": "US",
+          "organization": "Amazon",
+          "organizationalUnit": "Server CA 1B",
+          "commonName": "Amazon"
+        },
+        "validFrom": "Oct 12 00:00:00 2021 GMT",
+        "validTo": "Nov  9 23:59:59 2022 GMT",
+        "fingerprint": "72:3B:54:8E:EE:F8:F3:63:05:6F:4B:E1:8F:B9:09:6C:CC:6F:C9:BB",
+        "serialNumber": "03370c8435163ff766a8c16bb7a792e4"
+      }
+    }
+  },
+  "Request Headers": {
+    "user-agent": "PostmanRuntime/7.28.4",
+    "accept": "*/*",
+    "postman-token": "b2b6d7f8-ea8e-49df-a32b-0f7f76afd4c3",
+    "accept-encoding": "gzip, deflate, br",
+    "connection": "keep-alive",
+    "referer": "https://www.getpostman.com/collections/b668e69a73698144c1ca",
+    "host": "www.postman.com"
+  },
+  "Request Body": "",
+  "Response Headers": {
+    "content-type": "application/json; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "date": "Wed, 29 Dec 2021 15:30:56 GMT",
+    "server": "nginx",
+    "x-frame-options": "DENY",
+    "strict-transport-security": "max-age=15552000; includeSubDomains",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "",
+    "x-xss-protection": "1; mode=block",
+    "x-srv-trace": "v=1;t=2e3f9534d415d2f0",
+    "x-srv-span": "v=1;s=6b9ba55286300799",
+    "cache-control": "private, no-cache, no-store, must-revalidate",
+    "expires": "-1",
+    "pragma": "no-cache",
+    "etag": "W/\"1b44-krvBnCCtJ/FPbT/zYd4+c2blQ6E\"",
+    "vary": "Accept-Encoding",
+    "content-encoding": "gzip",
+    "x-cache": "Miss from cloudfront",
+    "via": "1.1 15534a2d9a3f6f849c6a3de010437d91.cloudfront.net (CloudFront)",
+    "x-amz-cf-pop": "SOF50-C1",
+    "x-amz-cf-id": "qvt1RdfgMNNUGaXMr_rwNUNRnwcBSzsp-OwPVJIH1Z7dI13LIbHy4A=="
+  },
+  "Response Body": "{\"info\":{\"_postman_id\":\"5878c2fc-4df0-4cb7-82e6-a2e2ef6d545d\",\"name\":\"Ciceksepeti Bootcamp API Test\",\"schema\":\"https://schema.getpostman.com/json/collection/v2.0.0/collection.json\"},\"item\":[{\"name\":\"cityName_ankara\",\"id\":\"a8fe391d-9e24-4a37-9dff-887d54db4033\",\"request\":{\"method\":\"GET\",\"header\":[],\"url\":{\"raw\":\"https://9413829b-f6a5-4e79-a341-048ab84ae0cd.mock.pstmn.io?cityName=ankara\",\"protocol\":\"https\",\"host\":[\"9413829b-f6a5-4e79-a341-048ab84ae0cd\",\"mock\",\"pstmn\",\"io\"],\"query\":[{\"key\":\"cityName\",\"value\":\"ankara\"}]}},\"response\":[{\"id\":\"cc3a9f24-de7e-4021-8e70-3d0a968f1090\",\"name\":\"cityName_ankara\",\"originalRequest\":{\"method\":\"GET\",\"header\":[],\"url\":{\"raw\":\"https://9413829b-f6a5-4e79-a341-048ab84ae0cd.mock.pstmn.io?cityName=ankara\",\"protocol\":\"https\",\"host\":[\"9413829b-f6a5-4e79-a341-048ab84ae0cd\",\"mock\",\"pstmn\",\"io\"],\"query\":[{\"key\":\"cityName\",\"value\":\"ankara\"}]}},\"status\":\"OK\",\"code\":200,\"_postman_previewlanguage\":\"json\",\"header\":[],\"cookie\":[],\"body\":\"{\\n  \\\"paginationResponse\\\": {\\n    \\\"pageItemsCount\\\": 20,\\n    \\\"totalItemsCount\\\": 25005,\\n    \\\"totalPageCount\\\": 1251\\n  },\\n  \\\"totalCount\\\": 25005,\\n  \\\"starDtos\\\": [\\n    {\\n      \\\"point\\\": 1,\\n      \\\"percent\\\": 5,\\n      \\\"count\\\": 1228\\n    },\\n    {\\n      \\\"point\\\": 2,\\n      \\\"percent\\\": 1,\\n      \\\"count\\\": 362\\n    },\\n    {\\n      \\\"point\\\": 3,\\n      \\\"percent\\\": 2,\\n      \\\"count\\\": 606\\n    },\\n    {\\n      \\\"point\\\": 4,\\n      \\\"percent\\\": 9,\\n      \\\"count\\\": 2247\\n    },\\n    {\\n      \\\"point\\\": 5,\\n      \\\"percent\\\": 82,\\n      \\\"count\\\": 20562\\n    }\\n  ],\\n  \\\"averageRate\\\": 4.5,\\n  \\\"averageAllReviewsRate\\\": 4.5,\\n  \\\"reviewDtos\\\": [\\n    {\\n      \\\"name\\\": \\\"Name Surname\\\",\\n      \\\"comment\\\": \\\"10 luk hizmet \\\",\\n      \\\"rating\\\": 10,\\n      \\\"createOn\\\": \\\"2021-12-16T08:36:02.101Z\\\",\\n      \\\"regionName\\\": \\\"\\\",\\n      \\\"cityName\\\": \\\"ANKARA\\\"\\n    },\\n    {\\n      \\\"name\\\": \\\"Name Surname 2\\\",\\n      \\\"comment\\\": \\\"Kaliteli Kargo\\\",\\n      \\\"rating\\\": 10,\\n      \\\"createOn\\\": \\\"2021-12-16T08:31:53.078Z\\\",\\n      \\\"regionName\\\": \\\"\\\",\\n      \\\"cityName\\\": \\\"ANKARA\\\"\\n    },\\n    {\\n      \\\"name\\\": \\\"Name Surname 3\\\",\\n      \\\"comment\\\": \\\"Hızlı kargo ve sürpriz için teşekkürler\\\",\\n      \\\"rating\\\": 10,\\n      \\\"createOn\\\": \\\"2021-12-16T07:49:34.927Z\\\",\\n      \\\"regionName\\\": \\\"\\\",\\n      \\\"cityName\\\": \\\"ANKARA\\\"\\n    },\\n    {\\n      \\\"name\\\": \\\"Name Surname 4\\\",\\n      \\\"comment\\\": \\\"Eşime aldım, gönderilmedi\\\",\\n      \\\"rating\\\": 0,\\n      \\\"createOn\\\": \\\"2021-12-16T07:08:19.8Z\\\",\\n      \\\"regionName\\\": \\\"\\\",\\n      \\\"cityName\\\": \\\"HATAY\\\"\\n    }\\n  ]\\n}\"}]},{\"name\":\"cityName_istanbul\",\"id\":\"25540c77-8bb3-4855-930e-7dda800097f4\",\"request\":{\"method\":\"GET\",\"header\":[],\"url\":{\"raw\":\"https://9413829b-f6a5-4e79-a341-048ab84ae0cd.mock.pstmn.io?cityName=istanbul\",\"protocol\":\"https\",\"host\":[\"9413829b-f6a5-4e79-a341-048ab84ae0cd\",\"mock\",\"pstmn\",\"io\"],\"query\":[{\"key\":\"cityName\",\"value\":\"istanbul\"}]}},\"response\":[{\"id\":\"47e9f046-ef1d-41d7-a70c-0006922cd6f6\",\"name\":\"cityName_istanbul\",\"originalRequest\":{\"method\":\"GET\",\"header\":[],\"url\":{\"raw\":\"https://9413829b-f6a5-4e79-a341-048ab84ae0cd.mock.pstmn.io?cityName=istanbul\",\"protocol\":\"https\",\"host\":[\"9413829b-f6a5-4e79-a341-048ab84ae0cd\",\"mock\",\"pstmn\",\"io\"],\"query\":[{\"key\":\"cityName\",\"value\":\"istanbul\"}]}},\"status\":\"OK\",\"code\":200,\"_postman_previewlanguage\":\"json\",\"header\":[],\"cookie\":[],\"body\":\"{\\n    \\\"paginationResponse\\\": {\\n        \\\"pageItemsCount\\\": 20,\\n        \\\"totalItemsCount\\\": 25005,\\n        \\\"totalPageCount\\\": 1251\\n    },\\n    \\\"totalCount\\\": 25005,\\n    \\\"starDtos\\\": [\\n        {\\n            \\\"point\\\": 1,\\n            \\\"percent\\\": 5,\\n            \\\"count\\\": 1228\\n        },\\n        {\\n            \\\"point\\\": 2,\\n            \\\"percent\\\": 1,\\n            \\\"count\\\": 362\\n        },\\n        {\\n            \\\"point\\\": 3,\\n            \\\"percent\\\": 2,\\n            \\\"count\\\": 606\\n        },\\n        {\\n            \\\"point\\\": 4,\\n            \\\"percent\\\": 9,\\n            \\\"count\\\": 2247\\n        },\\n        {\\n            \\\"point\\\": 5,\\n            \\\"percent\\\": 82,\\n            \\\"count\\\": 20562\\n        }\\n    ],\\n    \\\"averageRate\\\": 4.5,\\n    \\\"averageAllReviewsRate\\\": 4.5,\\n    \\\"reviewDtos\\\": [\\n        {\\n            \\\"name\\\": \\\"Name Surname\\\",\\n            \\\"comment\\\": \\\"10 luk hizmet \\\",\\n            \\\"rating\\\": 10,\\n            \\\"createOn\\\": \\\"2021-12-16T08:36:02.101Z\\\",\\n            \\\"regionName\\\": \\\"\\\",\\n            \\\"cityName\\\": \\\"ISTANBUL\\\"\\n        },\\n        {\\n            \\\"name\\\": \\\"Name Surname 2\\\",\\n            \\\"comment\\\": \\\"Kaliteli Kargo\\\",\\n            \\\"rating\\\": 10,\\n            \\\"createOn\\\": \\\"2021-12-16T08:31:53.078Z\\\",\\n            \\\"regionName\\\": \\\"\\\",\\n            \\\"cityName\\\": \\\"ISTANBUL\\\"\\n        },\\n        {\\n            \\\"name\\\": \\\"Name Surname 3\\\",\\n            \\\"comment\\\": \\\"Hızlı kargo ve sürpriz için teşekkürler\\\",\\n            \\\"rating\\\": 10,\\n            \\\"createOn\\\": \\\"2021-12-16T07:49:34.927Z\\\",\\n            \\\"regionName\\\": \\\"\\\",\\n            \\\"cityName\\\": \\\"ISTANBUL\\\"\\n        },\\n        {\\n            \\\"name\\\": \\\"Name Surname 4\\\",\\n            \\\"comment\\\": \\\"Eşime aldım, gönderilmedi\\\",\\n            \\\"rating\\\": 0,\\n            \\\"createOn\\\": \\\"2021-12-16T07:08:19.8Z\\\",\\n            \\\"regionName\\\": \\\"\\\",\\n            \\\"cityName\\\": \\\"ISTANBUL\\\"\\n        }\\n    ]\\n}\"}]},{\"name\":\"cityName_van\",\"id\":\"3e73ff27-8089-4c4d-85f2-beddd50f14bf\",\"request\":{\"method\":\"GET\",\"header\":[],\"url\":{\"raw\":\"https://9413829b-f6a5-4e79-a341-048ab84ae0cd.mock.pstmn.io?cityName=van\",\"protocol\":\"https\",\"host\":[\"9413829b-f6a5-4e79-a341-048ab84ae0cd\",\"mock\",\"pstmn\",\"io\"],\"query\":[{\"key\":\"cityName\",\"value\":\"van\"}]}},\"response\":[{\"id\":\"73e6628f-84d7-4887-aacd-b98c5eb54be7\",\"name\":\"cityName_van\",\"originalRequest\":{\"method\":\"GET\",\"header\":[],\"url\":{\"raw\":\"https://9413829b-f6a5-4e79-a341-048ab84ae0cd.mock.pstmn.io?cityName=van\",\"protocol\":\"https\",\"host\":[\"9413829b-f6a5-4e79-a341-048ab84ae0cd\",\"mock\",\"pstmn\",\"io\"],\"query\":[{\"key\":\"cityName\",\"value\":\"van\"}]}},\"code\":404,\"_postman_previewlanguage\":\"json\",\"header\":[],\"cookie\":[],\"body\":\"{\\n    \\\"message\\\": \\\"Not Found\\\"\\n}\"}]},{\"name\":\"cityName is null\",\"id\":\"3b51d3cf-5a20-43c2-b6f9-f7101838f84a\",\"request\":{\"method\":\"GET\",\"header\":[],\"url\":{\"raw\":\"https://9413829b-f6a5-4e79-a341-048ab84ae0cd.mock.pstmn.io?cityName\",\"protocol\":\"https\",\"host\":[\"9413829b-f6a5-4e79-a341-048ab84ae0cd\",\"mock\",\"pstmn\",\"io\"],\"query\":[{\"key\":\"cityName\",\"value\":null}]}},\"response\":[{\"id\":\"5f595ebf-3220-4ae0-9ce5-a3adac5d58b0\",\"name\":\"cityName is null\",\"originalRequest\":{\"method\":\"GET\",\"header\":[],\"url\":{\"raw\":\"https://9413829b-f6a5-4e79-a341-048ab84ae0cd.mock.pstmn.io?cityName\",\"protocol\":\"https\",\"host\":[\"9413829b-f6a5-4e79-a341-048ab84ae0cd\",\"mock\",\"pstmn\",\"io\"],\"query\":[{\"key\":\"cityName\",\"value\":null}]}},\"status\":\"Bad Request\",\"code\":400,\"_postman_previewlanguage\":\"json\",\"header\":[],\"cookie\":[],\"body\":\"{\\n  \\\"cityName\\\": [\\n    \\\"'cityName' can not be null.\\\"\\n  ]\\n}\"}]}]}"
+}
+'Ankara ili için yapılan yorumlar'
+[ { name: 'Name Surname',
+    comment: '10 luk hizmet ',
+    rating: 10,
+    createOn: '2021-12-16T08:36:02.101Z',
+    regionName: '',
+    cityName: 'ANKARA' },
+  { name: 'Name Surname 2',
+    comment: 'Kaliteli Kargo',
+    rating: 10,
+    createOn: '2021-12-16T08:31:53.078Z',
+    regionName: '',
+    cityName: 'ANKARA' },
+  { name: 'Name Surname 3',
+    comment: 'Hızlı kargo ve sürpriz için teşekkürler',
+    rating: 10,
+    createOn: '2021-12-16T07:49:34.927Z',
+    regionName: '',
+    cityName: 'ANKARA' },
+  { name: 'Name Surname 4',
+    comment: 'Eşime aldım, gönderilmedi',
+    rating: 0,
+    createOn: '2021-12-16T07:08:19.8Z',
+    regionName: '',
+    cityName: 'HATAY' } ]
+'İstanbul ili için yapılan yorumlar'
+[ { name: 'Name Surname',
+    comment: '10 luk hizmet ',
+    rating: 10,
+    createOn: '2021-12-16T08:36:02.101Z',
+    regionName: '',
+    cityName: 'ISTANBUL' },
+  { name: 'Name Surname 2',
+    comment: 'Kaliteli Kargo',
+    rating: 10,
+    createOn: '2021-12-16T08:31:53.078Z',
+    regionName: '',
+    cityName: 'ISTANBUL' },
+  { name: 'Name Surname 3',
+    comment: 'Hızlı kargo ve sürpriz için teşekkürler',
+    rating: 10,
+    createOn: '2021-12-16T07:49:34.927Z',
+    regionName: '',
+    cityName: 'ISTANBUL' },
+  { name: 'Name Surname 4',
+    comment: 'Eşime aldım, gönderilmedi',
+    rating: 0,
+    createOn: '2021-12-16T07:08:19.8Z',
+    regionName: '',
+    cityName: 'ISTANBUL' } ]
+'cityName_van status code'
+404
+'cityName_null status ve status code'
+'Bad Request'
+400
